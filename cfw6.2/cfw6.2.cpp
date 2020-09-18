@@ -20,7 +20,7 @@ void x() {
 		}
 		printf("\n");
 	}
-}
+} 
 
 int main() {
 	x();
