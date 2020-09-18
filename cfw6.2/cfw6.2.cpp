@@ -3,14 +3,7 @@
 char name[100];
 int c;
 void x() {
-	printf("How many letters of your name  : ");
-	scanf("%d", &c);
-	for (int i = 1; i <= c; i++)
-	{
-		printf("letters %d of your name  : ", i);
-		scanf("%s", &name[i]);
-
-	}
+	
 	for (int j = c; j >= 1; j--)
 	{
 		for (int z = c; z >= 1; z--)
@@ -23,6 +16,14 @@ void x() {
 } 
 
 int main() {
+	printf("How many letters of your name  : ");
+	scanf("%d", &c);
+	for (int i = 1; i <= c; i++)
+	{
+		printf("letters %d of your name  : ", i);
+		scanf("%s", &name[i]);
+
+	}
 	x();
 	return 0;
 }
